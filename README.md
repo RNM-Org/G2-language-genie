@@ -65,23 +65,23 @@ Pre-requisites:
 
 <details>
     <summary><b>Show instructions</b></summary>
-    * Accessing the website: 
+    1. Accessing the website: 
         * Open your web browser and navigate to the URL of the hosted website.
         * The main page of the website will be displayed.
 
-    * Uploading the handwritten text image: 
+    2. Uploading the handwritten text image: 
         * On the page, locate the "Choose file" button.
         * Click on the "Choose file" button to open the file selection window. 
         * Browse your computer to find the handwritten text image file that you want to process. 
         * Select the file and click "Open" to initiate the upload process. 
 
-    * Performing handwriting recognition: 
+    3. Performing handwriting recognition: 
         * Locate the "Predict" button on the main page. 
         * Click on the "Predict" button to initiate the handwriting recognition process. 
         * Wait for the system to process the uploaded image and recognize the handwritten text. 
         * Once the recognition process is completed, the recognized text will be displayed on the screen.
 
-    * Translating the recognized text: 
+    4. Translating the recognized text: 
         * Locate the "Translate to French/Spanish" button on the main page. 
         * Click on the "Translate to French/Spanish" button to initiate the translation process. 
         * The system will use the selected translation language to translate the recognized text. 
