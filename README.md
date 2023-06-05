@@ -22,15 +22,15 @@ To create a model that recognises written text from an image file uploaded by th
 * To make our project applicable to many real-life based use cases by achieving objective 4 (having flexible datasets).
 
 ## Objectives completed 
-  1. Accuracy achieved:
-      Translation to French: 93.76%
-      Translation to Spanish: 96.86%
+  * 1. Accuracy achieved:
+      * Translation to French: 93.76%
+      * Translation to Spanish: 96.86%
 
-  2. Since the datasets are stored in .txt file format, they can be infinitely edited to suit multiple use cases such as:
-        A program that translates ancient texts or manuscripts.
-        Travel-based translator to help people communicate when they are abroad.
-        Digitisation of documents in several languages in order to go paperless.
-        A system which converts handwritten text into digital format and translates it into audio for visually impaired individuals, enabling them to access and understand written content.
+  * 2. Since the datasets are stored in .txt file format, they can be infinitely edited to suit multiple use cases such as:
+        * A program that translates ancient texts or manuscripts.
+        * Travel-based translator to help people communicate when they are abroad.
+        * Digitisation of documents in several languages in order to go paperless.
+        * A system which converts handwritten text into digital format and translates it into audio for visually impaired individuals, enabling them to access and understand written content.
 
 
 ## Usage
