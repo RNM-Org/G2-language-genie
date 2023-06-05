@@ -19,7 +19,7 @@ To create a model that recognises written text from an image file uploaded by th
 * To provide accurate translations for both target languages.
 * To provide appropriate translation, with respect to using region specific and colloquial words in the translations.
 * To have a flexible dataset which can be altered to suit any use case by appending or deleting words/sentences provided in the dataset for translation.
-* To make our project applicable to many real-life based use cases by achieving objective 4 (having flexible datasets).
+* To make our project applicable to many real-life based use cases (see Objectives - pt. 4).
 
 ## Objectives completed 
   1. Accuracy achieved:
@@ -38,21 +38,48 @@ To create a model that recognises written text from an image file uploaded by th
 ### Installation
 
 <details>
-    <summary><b>Windows</b></summary>
-    Installation steps
+    <summary><b>Installation Steps</b></summary>
+  
+    1. Clone the Repository: 
+          - Open the GitHub repository of the project. 
+          - Click on the "Code" button and copy the repository URL. 
+          - Open your terminal or command prompt. 
+          - Navigate to the directory where you want to clone the repository. 
+          - Run the following command to clone the repository:
+                git clone <repository_url>
 
-</details>
+    2. Setting up the Environment: 
+          - Make sure Python is installed on your system. If not, download and install Python from the official website (https://www.python.org). 
+          - Create a virtual environment (optional but recommended) to isolate the project dependencies using the following command:
+                python -m venv env
 
-<details>
-    <summary><b>Linux</b></summary>
-    Installation steps
+          - Activate the virtual environment:
+                -- For Windows: Run the command: env\Scripts\activate
+                -- For macOS/Linux: Run the command: source env/bin/activate. 
+                -- Install the required dependencies by running the following command:
+                    pip install -r requirements.txt
 
-</details>
+    3. Saving Files to Drive: 
+          - Make sure you have a Google account and access to Google Drive. 
+          - Follow the instructions in the documentation or code to integrate the project with Google Drive. 
+          - Authenticate the project with your Google account and grant the necessary permissions to access Google Drive. 
+          - Modify the code to specify the Google Drive directory path where you want to save the files.
 
-<details>
-    <summary><b>macOS</b></summary>
-    Installation steps
+    4. Google Colab Integration: 
+          - Upload the project files (or the entire cloned repository folder) to your Google Drive. 
+          - Open Google Colab in your web browser.
+          - Mount your Google Drive in Colab by running the following code snippet:
+                from google.colab import drive
+                drive.mount('/content/drive')
 
+          - Navigate to the project folder using the file navigation panel in Google Colab.
+          - Open the project notebook (.ipynb file) and start working with it.
+
+    5. PyCharm Integration: 
+          - Open PyCharm and create a new project. 
+          - Set the project interpreter to the virtual environment you created earlier. 
+          - Add the project files (or the entire cloned repository folder) to your PyCharm project. 
+          - Open the project notebook (.ipynb file) and start working with it.
 </details>
 
 ### Navigation
@@ -83,9 +110,9 @@ To create a model that recognises written text from an image file uploaded by th
         - Once the translation process is completed, the translated text will be displayed on the screen.
   
     Note:
-        - The Choose file button opens up a window for the user to select an image file from their device. Upon choosing a file, the file name with extension will be displayed for the user to confirm they’ve chosen the desired file.
-        * The Predict button gives the user the text contained within the image as an output.
-        * Translate to French / Translate to Spanish buttons invoke the translation models in the program and show the translated output.
+        - The Choose file button opens up a window for the user to select an image file from their device.
+        - The Predict button gives the user the text contained within the image as an output.
+        - Translate to French / Translate to Spanish buttons invoke the translation models in the program and show the translated output.
 
 </details>
 
